@@ -4,7 +4,7 @@ describe('Routes: Index', () => {
       request.get('/')
         .expect(200)
         .end((err, res) => {
-          const expected = {status: 'Apisoni is working :)'};
+          const expected = { status: 'Apisoni is working :)' };
           expect(res.body).to.eql(expected);
           done(err);
         });
