@@ -1,15 +1,16 @@
 {
   "name": "apisoni",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Apisoni is a NodeJS template for building fast, robust, and adaptable APIs",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "test": "mocha test/**/*.js -w"
+    "test": "mocha test/**/*.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diazweb/apisoni.git"
+    "url": "https://github.com/diazweb/apisoni.git"
   },
   "keywords": [
     "nodejs",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/diazweb/apisoni#readme",
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "3.0.2"
+    "mocha": "3.0.2",
+    "semantic-release": "^4.3.5"
   }
 }
