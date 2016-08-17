@@ -1,7 +1,7 @@
 {
   "name": "apisoni",
   "version": "0.0.0-semantically-released",
-  "description": "Apisoni is a NodeJS template for building fast, robust, and adaptable APIs",
+  "description": "Apisoni is a NodeJS template for building fast, robust, and adaptable REST APIs",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
