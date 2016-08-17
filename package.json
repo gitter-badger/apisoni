@@ -36,7 +36,8 @@
   "dependencies": {
     "body-parser": "1.15.2",
     "consign": "0.1.2",
-    "express": "4.14.0"
+    "express": "4.14.0",
+    "helmet": "2.1.2"
   },
   "devDependencies": {
     "apidoc": "0.16.1",
