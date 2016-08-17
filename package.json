@@ -1,0 +1,29 @@
+{
+  "name": "apisoni",
+  "version": "0.0.1",
+  "description": "Apisoni is a NodeJS template for building fast, robust, and adaptable APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha test/**/*.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diazweb/apisoni.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "template"
+  ],
+  "author": "Alberto Díaz <alberto@diazweb.net> (http://diazweb.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diazweb/apisoni/issues"
+  },
+  "homepage": "https://github.com/diazweb/apisoni#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  }
+}
